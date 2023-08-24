@@ -42,7 +42,7 @@ I'll be setting milestones along the way to track my progress and celebrate achi
 - Attending coding workshops and meetups.
 - Landing my first coding internship or job.
 ## Projects
-[Coursera Css Final assignment Team Website](https://nathnael1.github.io/my_coding_journey/site/css%20trial/1/week%204/teams.html)
+[Coursera Css Final assignment Team Website](https://nathnael1.github.io/my_coding_journey/site/css%20trial/Basic%20CSS/week%204/teams.html)
 
 ## Conclusion
 
