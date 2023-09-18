@@ -187,7 +187,7 @@ margin-top:100px;
     );
 }
 .timeline img{
-    width:25%;
+    width:40%;
     height:250px;
     border-radius:40px;
     background:linear-gradient(
@@ -197,11 +197,13 @@ margin-top:100px;
         rgb(0, 8, 20) 100%
 
     );
-    position:absolute;
-    top:47%;
-    left:10%;
+
     padding:20px;
     background-color: rgb(2, 2, 49);
+    margin-bottom:-200px;
+    margin-left:10rem;
+
+    margin-top:30px;
 }
 
 #link a{
@@ -463,7 +465,8 @@ footer{
         font-size:12px;
     }
     .timeline img{
-        top:55%;
+        margin-left:6rem;
+        height:200px;
     }
 }
 @media all and (max-width:771px){
@@ -474,7 +477,8 @@ footer{
     }
 
     .timeline img{
-        top:65%;
+        margin-left:4rem;
+        height:180px;
         
     }
     .cblock{
