@@ -186,9 +186,14 @@ margin-top:100px;
         rgb(0, 41, 55) 100%
     );
 }
+.timeline{
+    margin:5px;
+    padding:5px;
+    width:100%;
+}
 .timeline img{
-    width:40%;
-    height:250px;
+    display:block;
+   margin:5px auto;
     border-radius:40px;
     background:linear-gradient(
         rgb(1, 38, 94),
@@ -198,12 +203,9 @@ margin-top:100px;
 
     );
 
-    padding:20px;
-    background-color: rgb(2, 2, 49);
-    margin-bottom:-200px;
-    margin-left:10rem;
 
-    margin-top:30px;
+    background-color: rgb(2, 2, 49);
+ 
 }
 
 #link a{
@@ -464,10 +466,7 @@ footer{
     .item a{
         font-size:12px;
     }
-    .timeline img{
-        margin-left:6rem;
-        height:200px;
-    }
+
 }
 @media all and (max-width:771px){
     #bodyp{
@@ -476,11 +475,7 @@ footer{
         grid-template-rows: repeat(5,1fr);
     }
 
-    .timeline img{
-        margin-left:4rem;
-        height:180px;
-        
-    }
+
     .cblock{
         top:3000px;
     }
@@ -501,9 +496,10 @@ footer{
     #bodyp{
 
         display:block;
+        margin-left:-30px;
     }
     #bodyt{
-
+        margin-left:-30px;
         display:block;
     }
     #second{
@@ -577,6 +573,9 @@ footer{
     margin-left:25%;
     padding-left:-20px;
 }
+*{
+    overflow-x: hidden;
+}
 }
 @media all and (max-width:430px){
     #link ul{
@@ -626,4 +625,5 @@ footer{
 footer *{
     font-size:0.8rem;
 }
+ 
 }
