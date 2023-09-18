@@ -7,11 +7,12 @@
 body{
     background:linear-gradient(
         90deg,
-        rgb(1, 13, 31),
-        rgb(1, 13, 31) 30%,
+         rgb(0, 41, 55),
+        rgb(0, 3, 46) 30%,
         rgb(0, 8, 21) 50%,
-        rgb(0, 3, 46) 75%,
-        rgb(0, 41, 55) 100%
+        rgb(1, 13, 31) 75%,
+        rgb(1, 13, 31) 100%,
+
     );
 }
 #wrapper{
