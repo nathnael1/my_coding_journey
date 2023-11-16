@@ -28,9 +28,7 @@ i{
 	text-align:center !important;
 
 }
-.border{
-border-color:#ff1e00 !important
-}
+
 .card{
     border-color:darkblue;
     border:none;
@@ -39,7 +37,8 @@ border-color:#ff1e00 !important
 .wrapper{
     margin-right:20px;
     margin-bottom:20px;
-    border:2px solid #ff1e00;
+   
+    border-radius:3%;
     background-color:gainsboro;
     height:600px;
 }
@@ -74,8 +73,8 @@ hr{
     width:80%
 }
 .foot{
-    color:#59ce8f;
-    font-size: 2rem;
+    color:lightblue;
+    font-size: 1.2rem;
 }
 .last-link:hover,.first-link:hover{
     background-color: #ff1e00;
@@ -83,8 +82,17 @@ hr{
 .fl:hover .color{
     color:#59ce8f;
 }
-.ad{
-    border:3px solid #59ce8f;
+.im{
+    border-top-right-radius:3% !important;
+    border-top-left-radius:3% !important;
+}
+.card-header{
+    border-top-right-radius:10% !important;
+    border-top-left-radius:10% !important;
+}
+.card-footer{
+    border-bottom-right-radius:10% !important;
+    border-bottom-left-radius:10% !important;
 }
 .modalone {
     display: none;
